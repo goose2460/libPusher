@@ -9,7 +9,7 @@ platform :ios, :deployment_target => '6.0'
 inhibit_all_warnings!
 
 pod 'Reachability', '~> 3.1'
-pod 'SocketRocket', '~> 0.4.1'
+pod 'SocketRocket', :git => 'https://github.com/square/SocketRocket'
 pod 'ReactiveCocoa', '~> 2.1'
 
 post_install do |installer|
